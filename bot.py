@@ -1,6 +1,6 @@
 import hikari
 
-bot = hikari.GatewayBot(token='*********')
+bot = hikari.GatewayBot(token='MTEzMTg1NTc5ODU4MzE4NTQ5MA.GzwCdF.98XV-duElUrd-AFVn0SXTDj36tMLYimqlaH1YU')
 
 @bot.listen(hikari.GuildMessageCreateEvent)
 async def print_message(event):

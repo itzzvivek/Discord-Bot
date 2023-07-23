@@ -3,7 +3,7 @@ import lightbulb
 
 bot = lightbulb.BotApp(
     token='***********', 
-    default_enabled_guilds=(1131855540633489528))
+    default_enabled_guilds=(***********))
 
 
 @bot.listen(hikari.StartedEvent)
